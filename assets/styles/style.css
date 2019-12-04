@@ -1,0 +1,272 @@
+body {
+	background-color: #FFFFFF;
+}
+
+#blue_box {
+	background-color: #F1FBFB;
+	width: 22%;
+	height: 100%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+}
+
+#rb_logo {
+	position: fixed;
+	height: 75px;
+	width: 75px;
+	left: 42px;
+	top: 22px;
+}
+
+#profile_pic {
+	position: fixed;
+	height: 410px;
+	width: 410px;
+	left: 117px;
+	top: 228px;
+}
+
+#linkedin_icon {
+	position: fixed;
+	height: 72px;
+	width: 72px;
+	left: 250px;
+	top: 694px;
+}
+
+#linkedin_icon:hover {
+	height: 90px;
+	width: 90px;
+	position: fixed;
+	left: 242px;
+	top: 686px;
+}
+
+#facebook_icon {
+	position: fixed;
+	height: 88px;
+	width: 88px;
+	left: 242px;
+	top: 790px;
+}
+
+#facebook_icon:hover {
+	position: fixed;
+	height: 110px;
+	width: 110px;
+	left: 231px;
+	top: 779px;
+}
+
+#mail_icon {
+	position: fixed;
+	height: 113px;
+	width: 113px;
+	left: 230px;
+	top: 902px;
+}
+
+#mail_icon:hover {
+	position: fixed;
+	height: 141px;
+	width: 141px;
+	left: 216px;
+	top: 888px;
+}
+
+#name_calligraphy {
+	position: fixed;
+	width: 658px;
+	height: 158px;
+	top: 22px;
+	left: 35%;
+}
+
+#menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 183px;
+}
+
+.menu_option {
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	color: #242121;
+	margin-right: 85px;
+}
+
+.line_item {
+	size: 0.5px;
+	width: 60%;
+	position: fixed;
+	top: 249.5px;
+	left: 535.5px;
+	border-color: #E4E4E4;
+	border-width: 1px;
+}
+
+.line_item_long {
+	size: 0.5px;
+	width: 85%;
+	position: fixed;
+	top: 249.5px;
+	left: 8%;
+	border-color: #E4E4E4;
+	border-width: 1px;
+}
+
+#welcome_text {
+	font-family: "Open Sans", sans-serif;
+	font-size: 60px;
+	font-weight: 300;
+	color: #242121;
+	position: fixed;
+	top: 351px;
+	left: 615px;
+	overflow: hidden;
+	white-space: nowrap;
+	border-right: .05em solid black;
+	animation: 
+		typing 2s steps(30, end), 
+		blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+	from { width: 0 }
+	to {width: 27%}
+}
+
+@keyframes blink-caret {
+	from, to  {border-color: transparent }
+	50% { border-color: black }
+}
+
+.paragraphs {
+	font-family: "Open Sans", sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	color: #242121;
+	width: 58%;
+}
+
+#p1 {
+	position: fixed;
+	top: 538px;
+	left: 615px;
+}
+
+#p2 {
+	position: fixed;
+	top: 620px;
+	left: 615px;
+}
+
+#p3 {
+	position: fixed;
+	top: 782px;
+	left: 615px;
+}
+
+.blue_box {
+	border-radius: 58px;
+	border: 1px solid #9D9C9C;
+	background-color: #F1FBFB;
+	padding: 20px;
+	width: 269px;
+	height: 256px;
+}
+
+.project_label, .experience_label {
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	font-style: italic;
+	color: #242121;
+}
+
+
+#projects_r1_boxes, #experiences_r1_boxes{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 1300px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+#projects_r2_boxes {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 1300px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#experiences_r2_boxes {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#projects_r1_labels, #projects_r2_labels, #experiences_r1_labels {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 1350px;
+	margin: 0 auto;
+}
+
+#experiences_r2_labels {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 900px;
+	margin: 0 auto;
+}
+
+.blue_box {
+	position: relative;
+}
+
+#universe_simulator_img, #bear_maps_img, #world_tile_generator_img, 
+#scheme_interpreter_img, #map_data_processing_img, #data_structures_img {
+	position: absolute;
+	top: 30%;
+	left: 30%;
+}
+
+#student_it_technician_img, #hackathon_lead_img, #web_development_intern_img, 
+#event_management_staff_img, #taekwondo_instructor_img {
+	position: absolute;
+	top: 30%;
+	left: 30%;
+}
+
+a:visited, a:link {
+	text-decoration: none;
+	color: #242121;
+}
+
+@media (min-width: 1200px){
+	body {
+		zoom: 0.8;
+	}
+}
+
+@media (min-width: 1500px){
+	body {
+		zoom: 0.8;
+	}
+}
+
+@media (min-width: 1900px) {
+	body {
+		zoom: 0.8;
+	}
+}
